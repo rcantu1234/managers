@@ -4,12 +4,16 @@ class ContactsController < ApplicationController
   # GET /contacts
   # GET /contacts.json
   def index
+   # @contacts = Contact.all.
     @contacts = Contact.all
+    @contact = Contact.new
   end
 
   # GET /contacts/1
   # GET /contacts/1.json
   def show
+    # @sorted_contact = Contact.all
+    # @sorted_contact = Contact.new
   end
 
   # GET /contacts/new
