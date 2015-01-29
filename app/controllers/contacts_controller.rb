@@ -5,7 +5,7 @@ class ContactsController < ApplicationController
   # GET /contacts.json
   def index
     @contacts = Contact.all
-    @contacts = Contact.all.each do { |x| x.first_name }.sort_by(&:first_name)
+   # @contacts = Contact.all.each do { |x| x.first_name }.sort_by(&:first_name)
   end
 
   # GET /contacts/1
