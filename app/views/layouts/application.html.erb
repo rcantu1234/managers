@@ -8,6 +8,17 @@
 </head>
 <body>
 
+<div class="title">
+  <h1> The Iron Yard </h1>
+</div>
+
+<div class='container'>
+  <nav class="nav-format">
+    <%= link_to 'Home', contacts_path %> |
+    <%= link_to 'New Contact', new_contact_path %>
+  </nav>
+</div>
+
 <%= yield %>
 
 </body>

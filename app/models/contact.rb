@@ -1,3 +1,3 @@
 class Contact < ActiveRecord::Base
-  @contacts = Contact.all.sort
+  # @contacts = Contact.all.sort
 end

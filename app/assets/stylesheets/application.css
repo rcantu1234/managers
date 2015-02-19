@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+.title {
+  width: 100%;
+  height: 5em;
+  float: left;
+  text-align: center;
+}
+
+.nav-format {
+  width: 100%;
+  height: 3em;
+  float: left;
+  text-align: center;
+}
